@@ -44,7 +44,7 @@ void subr (int64_t In[], int64_t Out[], int num, int *nret, int64_t *time, int m
     	   get_stream_64 (&S0, &v);
     	   put_stream_64 (&S1, v, v > 30000);
 	    }
-	stream_term (&S1);
+	stream_64_term (&S1);
 	}
 
     #pragma src section
